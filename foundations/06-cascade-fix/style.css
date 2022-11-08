@@ -5,7 +5,8 @@ body{
 .para,
 .small-para,
 .confirm,
-.text .child
+.text .child,
+.text
 {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
@@ -13,10 +14,11 @@ body{
 
 .small-para {
   font-size: 14px;
-  font-weight: 800;
 }
 
-.para {
+.para,
+div.text 
+{
   font-size: 22px;
 }
 
@@ -32,13 +34,9 @@ body{
 }
 
 .child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
   font-size: 14px;
 }
 
 div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
   font-weight: 100;
 }
