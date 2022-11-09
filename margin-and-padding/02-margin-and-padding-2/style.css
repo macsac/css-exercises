@@ -1,12 +1,4 @@
-html{
-  box-sizing: border-box;
-  display:block
-}
 
-*::before,
-*::after {
-  box-sizing: inherit; 
-}
 body {
   background: #eee;
   font-family: sans-serif;
@@ -22,20 +14,18 @@ body {
 .title {
   background: #e3f4ff;
   font-size: 25px;
-  padding:1rem;
+  
 }
 
 .content {
   background: #e3f4ff;
   display:block;
-  padding:1rem;
+ 
 }
 
 .button-container {
   background: #e3f4ff;
-  padding: 1rem ;
   text-align: center;
-  border: 5px;
 }
 
 button {
@@ -46,4 +36,5 @@ button {
 }
 .title, .content, .button-container{
   margin: 10px;
+  padding: 0.5rem;
 }
