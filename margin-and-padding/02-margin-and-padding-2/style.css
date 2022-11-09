@@ -1,3 +1,11 @@
+html{
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit; 
+}
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +15,31 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border: 10px solid rgba(255, 255, 255, 0.933);
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 25px;
+  display:block;
+
 }
 
 .content {
   background: #e3f4ff;
+  display:block;
 }
 
 .button-container {
   background: #e3f4ff;
+  display:flex;
+  padding: 6rem 7rem;
+  border: 10px solid white
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  margin: 0;
+  display: inline-block;
 }
