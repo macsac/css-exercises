@@ -28,7 +28,7 @@ input {
 .header, .left-links, .right-links, .footer {
   display:flex;
   justify-content: space-between;
-  
+  gap: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -41,9 +41,9 @@ input {
   align-items: center;
   margin: 100px auto;
 }
+*/
 
-
-/*ul {
+ul {
   list-style: none;
 }
 a{
