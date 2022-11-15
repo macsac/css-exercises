@@ -32,7 +32,9 @@ input {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.footer{
+  background-color: #ececec;
+}
 
 .content {
   display: flex;
