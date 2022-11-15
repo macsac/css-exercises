@@ -32,7 +32,9 @@ input {
   padding-left: 10px;
   padding-right: 10px;
 }
-.content {
+
+
+/*.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,11 +42,8 @@ input {
   margin: 100px auto;
 }
 
-.footer{
-  background-color: azure;
-}
 
-ul {
+/*ul {
   list-style: none;
 }
 a{
