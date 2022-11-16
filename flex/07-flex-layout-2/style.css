@@ -11,6 +11,8 @@ body {
 }
 .all-cards{
   flex-wrap: wrap;
+  justify-content: space-around;
+  padding:25px;
 }
 .header {
   max-height: 72px;
@@ -36,6 +38,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   max-width: 300px;
+  padding:25px;
 }
 ul{
   list-style: none;
