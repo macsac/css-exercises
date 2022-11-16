@@ -54,9 +54,11 @@ ul{
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  
 }
 a {
   text-decoration: none;
   color:#eee;
+  display: flex;
+  margin-bottom: 10px;
 }
