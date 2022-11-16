@@ -13,13 +13,17 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 25px;
   font-weight: 900;
+  justify-self: center;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  justify-content: center;
+  align-self: center;
 }
 
 .sidebar {
