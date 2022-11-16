@@ -38,7 +38,10 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   max-width: 300px;
-  padding:25px;
+  padding-top:25px;
+  padding-right:25px;
+  padding-left:25px;
+  padding-bottom: 200px;
 }
 ul{
   list-style: none;
