@@ -10,25 +10,23 @@ body {
 }
 
 .header {
-  height: 72px;
+  max-height: 72px;
   background: darkmagenta;
   color: white;
   font-size: 25px;
   font-weight: 900;
-  justify-self: center;
+  padding: 10px;
 }
-
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  justify-content: center;
-  align-self: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex: 1 1 40%;
 }
 
 .card {
