@@ -12,7 +12,8 @@ body {
 .all-cards{
   flex-wrap: wrap;
   justify-content: space-between;
-  padding:25px 300px 25px 25px;
+  padding:25px 300px 80px 25px;
+  
 }
 .header {
   max-height: 72px;
@@ -34,6 +35,7 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  padding: 0;
 }
 
 .card {
@@ -45,11 +47,14 @@ body {
   padding-right:25px;
   padding-left:25px;
   padding-bottom: 200px;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
 }
 ul{
   list-style: none;
- 
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 a {
   text-decoration: none;
